@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -II:\workspace_stm -II:\workspace_stm\STM32_DIODE -II:\workspace_stm\STM32_DIODE\cmsis_core -II:\workspace_stm\STM32_DIODE\common -II:\workspace_stm\STM32_DIODE\cmsis_boot -II:\workspace_stm\STM32_DIODE\stm_lib\inc -II:\workspace_stm\STM32_DIODE\stm_lib">
+      <target file="stm32f0xx_syscfg.o" lastModified="1405f43a182">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_syscfg.c" lastModified="1405f4380b2"/>
+      </target>
+      <target file="stdio.o" lastModified="1405f48d260">
+         <source file="..\..\..\common\stdio.c" lastModified="13de468017e"/>
+      </target>
+      <target file="stm32f0xx_gpio.o" lastModified="1405f43a0d8">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_gpio.c" lastModified="1405f397eef"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="1405f43a024">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_rcc.c" lastModified="1405f397f49"/>
+      </target>
+      <target file="common.o" lastModified="1405f58c0aa">
+         <source file="..\..\..\common\common.c" lastModified="1405f54ac7c"/>
+      </target>
+      <target file="stm32f0xx_misc.o" lastModified="1405f43a218">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_misc.c" lastModified="1405f39874b"/>
+      </target>
+      <target file="main.o" lastModified="1405f5c3687">
+         <source file="..\..\..\main.c" lastModified="1405f5c308d"/>
+      </target>
+      <target file="stm32f0_discovery.o" lastModified="1405f48d29c">
+         <source file="..\..\..\common\stm32f0_discovery.c" lastModified="13ec8e6a3b1"/>
+      </target>
+      <target file="stm32f0discovery.o" lastModified="1405f43a1dc">
+         <source file="..\..\..\common\stm32f0discovery.c" lastModified="13de444624f"/>
+      </target>
+      <target file="system_stm32f0xx.o" lastModified="1405f43a114">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx.c" lastModified="1405f397f21"/>
+      </target>
+      <target file="core_cm0.o" lastModified="1405f43057e">
+         <source file="..\..\..\cmsis_core\core_cm0.c" lastModified="1405f397f35"/>
+      </target>
+      <target file="stm32f0xx_exti.o" lastModified="1405f43a150">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_exti.c" lastModified="1405f434e76"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="1405f4303a8">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="1405f397f03"/>
+      </target>
+      <target file="string.o" lastModified="1405f48d1e8">
+         <source file="..\..\..\common\string.c" lastModified="13ef72c30be"/>
+      </target>
+   </processor>
+</history>

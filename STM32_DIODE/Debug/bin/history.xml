@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.6.2 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=STM32_DIODE.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32_DIODE -TC:\CooCox\CoIDE\configuration\ProgramData\STM32_DIODE/arm-gcc-link.ld -g">
+      <target file="STM32_DIODE.elf" lastModified="1405f5c387b">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="1405f43a024"/>
+         <source file="..\obj\common.o" lastModified="1405f58c0aa"/>
+         <source file="..\obj\main.o" lastModified="1405f5c3687"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="1405f4303a8"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="1405f43a0d8"/>
+         <source file="..\obj\system_stm32f0xx.o" lastModified="1405f43a114"/>
+         <source file="..\obj\stm32f0xx_exti.o" lastModified="1405f43a150"/>
+         <source file="..\obj\stm32f0xx_syscfg.o" lastModified="1405f43a182"/>
+         <source file="..\obj\stm32f0_discovery.o" lastModified="1405f48d29c"/>
+         <source file="..\obj\stm32f0xx_misc.o" lastModified="1405f43a218"/>
+         <source file="..\obj\core_cm0.o" lastModified="1405f43057e"/>
+      </target>
+   </processor>
+</history>
